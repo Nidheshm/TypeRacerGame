@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #034694;
+  }
+  
+  body, .text-input {
+    font-family: 'Source Code Pro';
+    font-size: 150%;
+  }
+  
+  .box {
+    background-color: lavender;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 80%;
+    max-width: 90%;
+  }
+  
+  .stopwatch {
+    position: absolute;
+    bottom: 4rem;
+    font-size: 8rem;
+    color: lavender;
+    font-weight: bold;
+  }
+
+  .best-score {
+    position:absolute;
+    font-size: 100%;
+  }
+  
+  .text-display {
+    margin-bottom: 1rem;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
+  }
+  
+  .image {
+    position: absolute;
+    top: 0.5rem;
+    font-size: 5rem;
+    color: lavender;
+  }
+
+  .text-input {
+    background-color: transparent;
+    border: 2px solid purple;
+    outline: none;
+    width: 100%;
+    height: 8rem;
+    margin: auto;
+    resize: none;
+    padding: .5rem 1rem;
+    font-size: 100%;
+    border-radius: .5rem;
+  }
+  
+  .text-input:focus {
+    border-color: black;
+  }
+
+  .best-score {
+    position: absolute;
+    right: 2em;
+    bottom: 2rem;  
+    font-size: 3rem;
+    font-family: Fredoka One;
+    color: lavender;
+  }
+
+  .best-Score {
+    position: absolute;
+    right: 1.5em;
+    bottom: 5rem;  
+    font-size: 3rem;
+    font-family: Fredoka One;
+    color: lavender;
+  }
+  
+  .correct {
+    color: green;
+  }
+  
+  .incorrect {
+    color: red;
+    text-decoration: underline;
+    text-shadow: 2px 2px red;
+  }
